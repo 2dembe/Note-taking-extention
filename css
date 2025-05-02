@@ -1,0 +1,89 @@
+ /* Basic Reset */
+ body, h1, h2, ul, li, button, textarea {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+ }
+
+ /* General Styles */
+ body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+ }
+
+ .container {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+
+ h1, h2 {
+  margin-bottom: 15px;
+  color: #555;
+ }
+
+ /* Text Area */
+ textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  resize: vertical;
+ }
+
+ /* Controls */
+ .controls {
+  margin-bottom: 15px;
+ }
+
+ button {
+  padding: 10px 15px;
+  margin-right: 10px;
+  border: none;
+  background-color: #5cb85c;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+ }
+
+ button:hover {
+  background-color: #4cae4c;
+ }
+
+ /* Note List */
+ #note-list {
+  list-style: none;
+ }
+
+ #note-list li {
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #eee;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+ }
+
+ /* Media Queries for Responsiveness */
+ @media (max-width: 600px) {
+  .container {
+  width: 95%;
+  padding: 10px;
+  }
+
+  button {
+  padding: 8px 12px;
+  font-size: 14px;
+  }
+ }
+ 
